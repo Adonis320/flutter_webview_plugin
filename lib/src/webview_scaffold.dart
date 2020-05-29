@@ -36,7 +36,7 @@ class WebviewScaffold extends StatefulWidget {
     this.hidden = false,
     this.initialChild,
     this.allowFileURLs,
-    this.resizeToAvoidBottomInset = false,
+    this.resizeToAvoidBottomInset = true,
     this.invalidUrlRegex,
     this.geolocationEnabled,
     this.debuggingEnabled = false,
